@@ -12,8 +12,10 @@
 	position: relative;
 }
 .container{
-	width: 800px;
-	height: 180px;
+	width: 600px;
+	max-width: 70%;
+	height: 150px;
+	/*max-height: 180px;*/
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -24,6 +26,7 @@
 	height: 100%;
 	background: rgba(235,0,255,0.11);
 	border-radius: 10px;
+	font-size: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -31,8 +34,9 @@
 }
 .container::before{
 	content: '';
-	width: 180px;
-	height: 180px;
+	width: 120px;
+	max-width: 75%;
+	height: 120px;
 	background: #f41b75;
 	border-radius: 5px;
 	position: absolute;
@@ -42,8 +46,9 @@
 }
 .container::after{
 	content: '';
-	width: 180px;
-	height: 180px;
+	width: 120px;
+	max-width: 75%;
+	height: 120px;
 	background: #419aff;
 	border-radius: 50%;
 	position: absolute;
